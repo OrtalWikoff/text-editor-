@@ -19,20 +19,20 @@ module.exports = () => {
     },
     plugins: [
       new HtmlWebpackPlugin({
-				template: './index.html',
+	  template: './index.html',
 			}),
-			new WebpackPwaManifest({
-				  name: 'JATE',
-				  short_name: 'JATE',
-				  description: 'Just Another Text Editor',
-				  display: 'standalone',
-				  background_color: '#1e1e1e',
-				  theme_color: '#1e1e1e',
-				  start_url: '/',
-				  publicPath: '/',
-				  fingerprints: false,
-				  inject: true,
-				  icons: [
+	  new WebpackPwaManifest({
+				name: 'JATE',
+				short_name: 'JATE',
+				description: 'Just Another Text Editor',
+				display: 'standalone',
+				background_color: '#1e1e1e',
+				theme_color: '#1e1e1e',
+				start_url: '/',
+				publicPath: '/',
+				fingerprints: false,
+				inject: true,
+				icons: [
 					{
 					      	src: path.resolve('src/images/logo.png'),
 						      sizes: [96, 128, 192, 256, 384, 512],
@@ -54,7 +54,7 @@ module.exports = () => {
 				},
 				{
 					test: /\.m?js$/,
-				  exclude: /node_modules/,
+				  	exclude: /node_modules/,
 					use: {
 						loader: 'babel-loader',
 						options: {
