@@ -14,4 +14,4 @@ https://github.com/OrtalWikoff/text-editor-
 
 Here is a screenshot of my application:
 
-<img width="600" alt="Screen Shot 2022-09-10 at 7 17 44 PM" src="https://user-images.githubusercontent.com/100814403/189505104-44f78f65-7a9f-4c89-a4b6-c0154dca1d61.png">
+<img width="600" alt="Screen Shot 2022-09-10 at 7 30 03 PM" src="https://user-images.githubusercontent.com/100814403/189505193-21fb8c02-3c75-4f31-bd3a-c5185c8a8338.png">
